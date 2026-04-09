@@ -1,0 +1,51 @@
+# Claude Code local settings
+.claude/
+
+# Pytest temp artifact directories (created by file: URI bug in older tests)
+file:/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# App runtime output — keep folders, ignore contents
+分割前/*
+分割後/*
+logs/*
+
+# Keep folder structure
+!分割前/.gitkeep
+!分割後/.gitkeep
+!logs/.gitkeep
